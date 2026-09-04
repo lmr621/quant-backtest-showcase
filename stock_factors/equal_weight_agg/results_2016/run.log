@@ -1,0 +1,41 @@
+============================================================
+等权聚合策略 (start 2016-01-06)
+============================================================
+
+[1/3] 加载因子 + 构建等权复合...
+  Loaded 32/32 factors, shape=(4928, 3305, 32)
+  方向 OK
+
+[2/3] 分层回测 (5/10/20/50)...
+  Saved: D:\investment\wechat_factors\factor_agg\equal_weight\results_2016\layered_5layer_bar.png
+  Saved: D:\investment\wechat_factors\factor_agg\equal_weight\results_2016\layered_5layer_ts.png
+  5 layers: Q1=-17.3% Q5=21.7%
+  Saved: D:\investment\wechat_factors\factor_agg\equal_weight\results_2016\layered_10layer_bar.png
+  Saved: D:\investment\wechat_factors\factor_agg\equal_weight\results_2016\layered_10layer_ts.png
+  10 layers: Q1=-28.4% Q10=24.2%
+  Saved: D:\investment\wechat_factors\factor_agg\equal_weight\results_2016\layered_20layer_bar.png
+  Saved: D:\investment\wechat_factors\factor_agg\equal_weight\results_2016\layered_20layer_ts.png
+  20 layers: Q1=-40.1% Q20=27.3%
+  Saved: D:\investment\wechat_factors\factor_agg\equal_weight\results_2016\layered_50layer_top5_bar.png
+  Saved: D:\investment\wechat_factors\factor_agg\equal_weight\results_2016\layered_50layer_top5_ts.png
+  50 layers: Q1=-51.8% Q50=30.0%
+
+[3/3] Top-N 选股稳健性（持仓 x 调仓阈值）...
+  size=10 thr=  20%: AnnRet=+23.2% Sharpe=0.84 TVR=5.2%
+  size=10 thr=  10%: AnnRet=+25.2% Sharpe=0.88 TVR=6.7%
+  size=10 thr=   5%: AnnRet=+25.2% Sharpe=0.89 TVR=8.3%
+  size=10 thr= 2.5%: AnnRet=+29.2% Sharpe=0.99 TVR=10.7%
+  size=15 thr=  20%: AnnRet=+26.4% Sharpe=0.94 TVR=5.3%
+  size=15 thr=  10%: AnnRet=+26.0% Sharpe=0.92 TVR=6.8%
+  size=15 thr=   5%: AnnRet=+25.4% Sharpe=0.91 TVR=8.6%
+  size=15 thr= 2.5%: AnnRet=+29.2% Sharpe=1.00 TVR=11.4%
+  size=20 thr=  20%: AnnRet=+27.0% Sharpe=0.96 TVR=5.3%
+  size=20 thr=  10%: AnnRet=+26.6% Sharpe=0.94 TVR=7.0%
+  size=20 thr=   5%: AnnRet=+25.3% Sharpe=0.91 TVR=8.9%
+  size=20 thr= 2.5%: AnnRet=+28.3% Sharpe=0.99 TVR=12.1%
+  size=30 thr=  20%: AnnRet=+28.0% Sharpe=0.99 TVR=5.4%
+  size=30 thr=  10%: AnnRet=+25.5% Sharpe=0.92 TVR=7.2%
+  size=30 thr=   5%: AnnRet=+27.6% Sharpe=0.98 TVR=9.5%
+  size=30 thr= 2.5%: AnnRet=+26.2% Sharpe=0.94 TVR=13.6%
+
+总耗时 612s → D:\investment\wechat_factors\factor_agg\equal_weight\results_2016

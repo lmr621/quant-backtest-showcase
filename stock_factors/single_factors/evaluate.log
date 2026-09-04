@@ -1,0 +1,49 @@
+======================================================================
+因子评估：回测 + 指标 + 滚动IC + 分层 + 相关性
+======================================================================
+
+[1/4] 加载因子 + 数据...
+  Loaded 32/32 factors, shape=(4928, 3305, 32)
+
+[2/4] 逐因子评估...
+  [ 1/32] effective_alpha_001    IR=+0.249 IC=+0.0202 AnnRet=+56.4%
+  [ 2/32] effective_alpha_002    IR=+0.228 IC=+0.0166 AnnRet=+42.1%
+  [ 3/32] effective_alpha_003    IR=+0.227 IC=+0.0133 AnnRet=+22.9%
+  [ 4/32] effective_alpha_004    IR=+0.207 IC=+0.0315 AnnRet=+35.9%
+  [ 5/32] effective_alpha_005    IR=+0.188 IC=+0.0374 AnnRet=+41.6%
+  [ 6/32] effective_alpha_006    IR=+0.185 IC=+0.0378 AnnRet=+41.0%
+  [ 7/32] effective_alpha_007    IR=+0.184 IC=+0.0251 AnnRet=+27.7%
+  [ 8/32] effective_alpha_008    IR=+0.194 IC=+0.0420 AnnRet=+31.6%
+  [ 9/32] effective_alpha_009    IR=+0.146 IC=+0.0247 AnnRet=+18.5%
+  [10/32] effective_alpha_010    IR=+0.129 IC=+0.0460 AnnRet=+26.8%
+  [11/32] effective_alpha_011    IR=+0.039 IC=+0.0359 AnnRet=+7.4%
+  [12/32] effective_alpha_012    IR=+0.224 IC=+0.0332 AnnRet=+35.3%
+  [13/32] effective_alpha_013    IR=+0.188 IC=+0.0467 AnnRet=+36.4%
+  [14/32] effective_alpha_014    IR=+0.192 IC=+0.0438 AnnRet=+32.3%
+  [15/32] effective_alpha_015    IR=+0.192 IC=+0.0438 AnnRet=+32.3%
+  [16/32] effective_alpha_016    IR=+0.144 IC=+0.0364 AnnRet=+33.9%
+  [17/32] effective_alpha_017    IR=+0.115 IC=+0.0250 AnnRet=+23.3%
+  [18/32] effective_alpha_018    IR=+0.118 IC=+0.0214 AnnRet=+19.3%
+  [19/32] effective_alpha_019    IR=+0.145 IC=+0.0404 AnnRet=+31.0%
+  [20/32] effective_alpha_020    IR=+0.108 IC=+0.0131 AnnRet=+13.9%
+  [21/32] effective_alpha_021    IR=+0.144 IC=+0.0293 AnnRet=+18.4%
+  [22/32] effective_alpha_022    IR=+0.092 IC=+0.0082 AnnRet=+7.2%
+  [23/32] effective_alpha_023    IR=+0.093 IC=+0.0077 AnnRet=+6.6%
+  [24/32] effective_alpha_024    IR=+0.099 IC=+0.0078 AnnRet=+6.7%
+  [25/32] effective_alpha_025    IR=+0.112 IC=+0.0265 AnnRet=+12.4%
+  [26/32] effective_alpha_026    IR=+0.039 IC=+0.0036 AnnRet=+5.9%
+  [27/32] effective_alpha_027    IR=+0.121 IC=+0.0187 AnnRet=+23.4%
+  [28/32] effective_alpha_028    IR=+0.079 IC=+0.0169 AnnRet=+7.7%
+  [29/32] effective_alpha_029    IR=+0.073 IC=+0.0186 AnnRet=+14.9%
+  [30/32] effective_alpha_030    IR=+0.108 IC=+0.0202 AnnRet=+11.5%
+  [31/32] effective_alpha_031    IR=+0.027 IC=+0.0152 AnnRet=+4.2%
+  [32/32] effective_alpha_032    IR=+0.088 IC=+0.0078 AnnRet=+13.8%
+
+[3/4] 计算因子相关性矩阵...
+
+[4/4] 汇总...
+  因子数: 32
+  IR>0 因子: 32
+  IC>0 因子: 32
+  平均截面相关性(绝对): 0.212
+
